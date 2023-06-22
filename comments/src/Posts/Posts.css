@@ -1,0 +1,13 @@
+.Post {
+    width: 500px;
+    height: 600px;
+    border: 0.1cm solid yellowgreen;
+    margin: 10px;
+    padding: 5px;
+}
+
+.CommentBtn  {
+    margin: 5px;
+    background-color: green;
+    color: bisque;
+}
