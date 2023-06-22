@@ -13,7 +13,7 @@ const Posts = ({post}) => {
     }
 
   const handleClick = (id) => {
-    fetchComments(id);
+    !isClicked && fetchComments(id);
     setIsClicked((value) => !value)
   }
     return (
